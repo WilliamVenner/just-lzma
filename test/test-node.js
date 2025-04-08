@@ -1,6 +1,5 @@
 #!/usr/bin/env node
-const { LZMA } = require("../dist/lzma");
-const { compress, decompress } = LZMA();
+const { compress, decompress } = require("../dist/index.js");
 
 /// For usage see `node test-node.js --help`
 
@@ -9,7 +8,7 @@ var fs = require("fs");
 var p = require("path");
 var params = get_params();
 var my_lzma;
-var lzma_norm = require("../dist/lzma_worker.js").LZMA;
+var lzma_norm = { compress, decompress };
 var path_to_files = p.join(__dirname, "files");
 var isTTY = process.stdout.isTTY;
 var total_time;

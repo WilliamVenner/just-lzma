@@ -1,19 +1,19 @@
 {
-  "name": "lzma-web",
+  "name": "just-lzma",
   "maintainers": [
-    "Ben Williams <git@biwills.com>"
+    "William Venner <william@venner.io>"
   ],
   "author": "Nathan Rugg <nmrugg@gmail.com>",
   "description": "A JavaScript implementation of the Lempel-Ziv-Markov (LZMA) chain compression algorithm",
-  "version": "3.0.1",
+  "version": "4.0.0",
   "types": "index.d.ts",
-  "homepage": "https://github.com/biw/lzma-web",
+  "homepage": "https://github.com/WilliamVenner/just-lzma",
   "repository": {
     "type": "git",
-    "url": "git://github.com/biw/lzma-web.git"
+    "url": "git://github.com/WilliamVenner/just-lzma.git"
   },
   "bugs": {
-    "url": "https://github.com/biw/lzma-web/issues"
+    "url": "https://github.com/WilliamVenner/just-lzma/issues"
   },
   "publishConfig": {
     "access": "public"
